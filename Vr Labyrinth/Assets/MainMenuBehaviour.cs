@@ -5,9 +5,13 @@ using UnityEngine;
 public class MainMenuBehaviour : MonoBehaviour
 {
 
+    [SerializeField] GameObject puerta;
+
+
     public void StartGame()
     {
         Debug.Log("empexzo el jeugo ");
+        puerta.SetActive(false);
     }
 
     public void CloseGame()
